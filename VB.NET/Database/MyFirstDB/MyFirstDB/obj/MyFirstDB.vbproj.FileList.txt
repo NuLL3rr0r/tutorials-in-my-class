@@ -1,0 +1,10 @@
+bin\Release\MyFirstDB.exe
+bin\Release\MyFirstDB.pdb
+bin\Release\MyFirstDB.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\MyFirstDB.Form1.resources
+obj\Release\MyFirstDB.Resources.resources
+obj\Release\MyFirstDB.vbproj.GenerateResource.Cache
+obj\Release\MyFirstDB.exe
+obj\Release\MyFirstDB.xml
+obj\Release\MyFirstDB.pdb

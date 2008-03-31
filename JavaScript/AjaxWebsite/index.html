@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Using Simple Ajax Library & More...</title>
+<link rel="stylesheet" type="text/css" href="layout.css" />
+<script type="text/javascript" language="javascript" src="simpleajax.js"></script>
+<script language="javascript">
+	initAjaxTargets('dvContetns1', 'dvContetns2', 'dvContetns3', 'dvContetns4', 'dvContetns5', 'dvContetns6');
+	loadingText = '<img src="loading.gif" />&nbsp;Please Wait...';
+	useCache = false;
+</script>
+</head>
+
+<body>
+<input type="button" value="Get Browser Informatin in HTML" onclick="document.getElementById('dvBrowserInfo').innerHTML = browser.getInfoHTML();" /> <input type="button" value="Get Browser Informatin in Text" onclick="window.alert(browser.getInfoText());" /> <input type="button" value="Get Browser Informatin in Raw" onclick="window.alert(browser.getInfoRaw());" />
+<br />
+<div id="dvBrowserInfo">
+</div>
+<br />
+<input type="button" value="Get OS Name" onclick="window.alert(browser.platform);" /> <input type="button" value="Get Browser Type" onclick="window.alert(browser.engine);" /> <input type="button" value="is Browser Gecko" onclick="window.alert(browser.isGecko);" /> <input type="button" value="is Browser MSIE" onclick="window.alert(browser.isMSIE);" /> <input type="button" value="is Browser KHTML" onclick="window.alert(browser.isKHTML);" /> <input type="button" value="is Browser Opera" onclick="window.alert(browser.isOpera);" /> <input type="button" value="Browser Version (IE only)" onclick="window.alert(browser.ver);" />
+<br /><br />
+<input type="text" id="txtEmail" /> <input type="button" value="Validate Email Address" onclick="window.alert(document.getElementById('txtEmail').value.isEmail() ? 'OK' : 'Invalid');" />
+<br /><br />
+<input type="text" id="txtURL" /> <input type="button" value="Validate URL" onclick="window.alert(document.getElementById('txtURL').value.isURL() ? 'OK' : 'Invalid');" />
+<br /><br />
+<input type="text" id="txtTrimmer" /> <input type="button" value="Orginal Text" onclick="window.alert('\'' + document.getElementById('txtTrimmer').value + '\'')" /> <input type="button" value="Trimmed Text" onclick="window.alert('\'' + document.getElementById('txtTrimmer').value.trim() + '\'')" /> <input type="button" value="Left Trim" onclick="window.alert('\'' + document.getElementById('txtTrimmer').value.lTrim() + '\'')" /> <input type="button" value="Right Trim" onclick="window.alert('\'' + document.getElementById('txtTrimmer').value.rTrim() + '\'')" />  <input type="button" value="Count" onclick="window.alert(document.getElementById('txtTrimmer').value.substrCount('Hello Boy And EYE'))" /> <input type="button" value="isAlpha" onclick="window.alert(document.getElementById('txtTrimmer').value.isAlpha())" /> <input type="button" value="isDigit" onclick="window.alert(document.getElementById('txtTrimmer').value.isDigit())" />
+
+
+<script language="javascript">
+</script>
+<br />
+<br />
+<br />
+<a href="javascript:;" onclick="talkingServer('add.pl?n1=10&n2=13', 'dvContetns2')">Add</a>
+<h3>How to using Simple Ajax Library & More...</h3>
+<br />
+<hr />
+
+	<h4>Setting Header Section</h4>
+	<div class="code">
+    	&lt;title&gt;How to using Simple Ajax Library &amp; More...&lt;/title&gt;<br />
+		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;layout.css&quot; /&gt;<br />
+		<strong>&lt;script type=&quot;text/javascript&quot; src=&quot;simpleajax.js&quot;&gt;&lt;/script&gt;</strong><br />
+		<strong>&lt;script language=&quot;javascript&quot;&gt;<br />
+initAjaxTargets('dvContetns1', 'dvContetns2', 'dvContetns3', 'dvContetns4', 'dvContetns5', 'dvContetns6');<br />
+loadingText = '&lt;img src=&quot;loading.gif&quot; /&gt;&amp;nbsp;Please Wait...';<br />
+		&lt;/script&gt;</strong><br />
+		&lt;/head&gt;<br />
+		&lt;body&gt;
+</div>
+	    <br />
+	
+<hr />
+
+
+<h4>Example 1</h4>
+	<div class="code">
+    	<strong>&lt;a href=&quot;p1.html&quot; rel=&quot;dvContetns1&quot;&gt;Page 1&lt;/a&gt;</strong>&amp;nbsp;&amp;nbsp;&amp;nbsp;<br />
+		<strong>&lt;a href=&quot;p2.html&quot; rel=&quot;dvContetns2&quot;&gt;Page 2&lt;/a&gt;</strong>&amp;nbsp;&amp;nbsp;&amp;nbsp;<br />
+		<strong>&lt;a href=&quot;p3.html&quot; rel=&quot;dvContetns1&quot;&gt;Page 3&lt;/a&gt;</strong>&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;<br />
+		&lt;br /&gt;<br />
+		&lt;table width=&quot;85%&quot; border=&quot;0&quot; align=&quot;center&quot;&gt;<br />
+		&lt;tr&gt;<br />
+		&lt;td width=&quot;50%&quot;&gt;<br />
+		<strong>&lt;div id=&quot;dvContetns1&quot;&gt;<br />
+		This is PlaceHolder 1<br />
+        &lt;/div&gt;</strong><br />
+		&lt;/td&gt;<br />
+		&lt;td width=&quot;50%&quot;&gt;<br />
+		<strong>&lt;div id=&quot;dvContetns2&quot;&gt;<br />
+		This is PlaceHolder 2<br />
+        &lt;/div&gt;</strong><br />
+		&lt;/td&gt;<br />
+		&lt;/tr&gt;<br />
+		&lt;/table&gt;<br />
+	</div>
+    <br />
+    You can see that below:
+    <br />
+    
+	<a href="p1.html" rel="dvContetns1">Page 1</a>&nbsp;&nbsp;&nbsp;
+	<a href="p2.html" rel="dvContetns2">Page 2</a>&nbsp;&nbsp;&nbsp;
+<a href="p3.html" rel="dvContetns1">Page 3</a>&nbsp;&nbsp;&nbsp;<br />
+    <br />
+<table width="85%" border="0" align="center">
+    	<tr>
+        	<td width="50%">
+    			<div id="dvContetns1">
+                	This is PlaceHolder 1
+	    	    </div>
+            </td>
+       	  <td width="50%">
+    			<div id="dvContetns2">
+                	This is PlaceHolder 2
+	    	    </div>
+          </td>
+        </tr>
+</table>
+    
+<hr />
+
+
+<h4>Example 2</h4>
+	<div class="code">
+    	<strong>&lt;a href=&quot;javascript:;&quot; onclick=&quot;talkingServer('p1.html', 'dvContetns3');&quot;&gt;Page 1&lt;/a&gt;</strong>&amp;nbsp;&amp;nbsp;&amp;nbsp;<br />
+        <strong>&lt;a href=&quot;javascript:;&quot; onclick=&quot;talkingServer('p2.html', 'dvContetns4');&quot;&gt;Page 2&lt;/a&gt;</strong>&amp;nbsp;&amp;nbsp;&amp;nbsp;<br />
+        <strong>&lt;a href=&quot;javascript:;&quot; onclick=&quot;talkingServer('p3.html', 'dvContetns3');&quot;&gt;Page 3&lt;/a&gt;</strong>&lt;br /&gt;<br />
+        &lt;br /&gt;<br />
+        &lt;table width=&quot;85%&quot; border=&quot;0&quot; align=&quot;center&quot;&gt;<br />
+        &lt;tr&gt;<br />
+        &lt;td width=&quot;50%&quot;&gt;<br />
+        <strong>&lt;div id=&quot;dvContetns3&quot;&gt;<br />
+        This is PlaceHolder 3<br />
+        &lt;/div&gt;</strong><br />
+        &lt;/td&gt;<br />
+        &lt;td width=&quot;50%&quot;&gt;<br />
+        <strong>&lt;div id=&quot;dvContetns4&quot;&gt;<br />
+        This is PlaceHolder 4<br />
+        &lt;/div&gt;</strong><br />
+        &lt;/td&gt;<br />
+        &lt;/tr&gt;<br />
+        &lt;/table&gt;<br />
+        <br />
+	</div>
+    <br />
+    You can see that below:
+    <br />
+    
+	<a href="javascript:;" onclick="talkingServer('p1.html', 'dvContetns3');">Page 1</a>&nbsp;&nbsp;&nbsp;
+	<a href="javascript:;" onclick="talkingServer('p2.html', 'dvContetns4');">Page 2</a>&nbsp;&nbsp;&nbsp;
+	<a href="javascript:;" onclick="talkingServer('p3.html', 'dvContetns3');">Page 3</a><br />
+    <br />
+    <table width="85%" border="0" align="center">
+    	<tr>
+        	<td width="50%">
+    			<div id="dvContetns3">
+                	This is PlaceHolder 3
+	    	    </div>
+            </td>
+        	<td width="50%">
+    			<div id="dvContetns4">
+                	This is PlaceHolder 4
+	    	    </div>
+            </td>
+        </tr>
+    </table>
+
+<hr />
+
+
+<h4>Example 3</h4>
+	<div class="code">
+    	<strong>&lt;select onchange=&quot;if (this.value != '') talkingServer(this.value, 'dvContetns5');&quot;&gt;<br />
+		&lt;option value=&quot;&quot;&gt;Select Please&lt;/option&gt;<br />
+		&lt;option value=&quot;p1.html&quot;&gt;Page 1&lt;/option&gt;<br />
+		&lt;option value=&quot;p2.html&quot;&gt;Page 2&lt;/option&gt;<br />
+		&lt;option value=&quot;p3.html&quot;&gt;Page 3&lt;/option&gt;<br />
+        &lt;/select&gt;</strong><br />
+		&lt;br /&gt;&lt;br /&gt;<br />
+		<strong>&lt;div id=&quot;dvContetns5&quot;&gt;<br />
+		This is PlaceHolder 5<br />
+        &lt;/div&gt;</strong><br />
+		<br />
+	</div>
+    <br />
+    You can see that below:
+    <br />
+    
+	<select onchange="if (this.value != '') talkingServer(this.value, 'dvContetns5');">
+		<option value="">Select Please</option>
+		<option value="p1.html">Page 1</option>
+		<option value="p2.html">Page 2</option>
+		<option value="p3.html">Page 3</option>
+	</select>
+    <br /><br />
+	<div id="dvContetns5">
+       	This is PlaceHolder 5
+    </div>
+    
+<hr />
+
+
+<h4>Example 4</h4>
+	<div class="code">
+		<strong>&lt;div id=&quot;dvContetns6&quot;&gt;<br />
+		This is PlaceHolder 6<br />
+        &lt;/div&gt;</strong><br />
+        .<br />.<br />.<br />
+		<strong>&lt;script language=&quot;javascript&quot;&gt;<br />
+		talkingServer('p2.html', 'dvContetns6');<br />
+        &lt;/script&gt;</strong><br />
+        &lt;/body&gt;<br />
+        &lt;/html&gt;<br />
+	</div>
+    <br />
+    You can see that below:
+    <br />
+    
+	<div id="dvContetns6">
+       	This is PlaceHolder 6
+    </div>
+    
+<hr />
+
+
+<script language="javascript">
+		talkingServer('p2.html', 'dvContetns6');
+	</script>
+</body>
+</html>

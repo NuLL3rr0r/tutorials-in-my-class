@@ -1,0 +1,51 @@
+Students DB v1.0
+
+
+Student ID: 12
+Student Name: Ali
+Student No: 14
+Student Rank: 6
+
+
+Student ID: 1
+Student Name: Hasan
+Student No: 21
+Student Rank: 2
+
+
+Student ID: 5
+Student Name: Qoli
+Student No: 15
+Student Rank: 12
+
+
+Student ID: 8
+Student Name: Taqi
+Student No: 13
+Student Rank: 88
+
+
+Student ID: 6
+Student Name: Alexander
+Student No: 30
+Student Rank: 1
+
+
+Student ID: 17
+Student Name: Joe
+Student No: 15
+Student Rank: 3
+
+
+Student ID: 2212
+Student Name: Raj Komar
+Student No: 0
+Student Rank: 16
+
+
+Student ID: 99
+Student Name: Hitoshima
+Student No: 9
+Student Rank: 66
+
+

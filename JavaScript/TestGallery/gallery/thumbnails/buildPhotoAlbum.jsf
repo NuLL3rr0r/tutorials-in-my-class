@@ -1,0 +1,164 @@
+App.progressCountTotal = 20;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/12-1920.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = '12-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/12-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/12-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/12-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/12-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/12-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/12-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/13-1920.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = '13-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/13-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/13-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/13-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/13-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/13-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/13-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/14-1920.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = '14-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/14-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/14-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/14-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/14-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/14-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/14-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/15-1920.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '15-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/15-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/15-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/15-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/15-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/15-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/15-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/16-1920.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = '16-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/16-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/16-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/16-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/16-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/16-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/16-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/17-1920.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = '17-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/17-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/17-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/17-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/17-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/17-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/17-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/18-1920.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = '18-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/18-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/18-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/18-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/18-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/18-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/18-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/19-1920.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = '19-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/19-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/19-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/19-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/19-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/19-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/19-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/20-1920.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = '20-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/20-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/20-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/20-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/20-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/20-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/20-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/27-1920.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = '27-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/27-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/27-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/27-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/27-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/27-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/27-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/28-1920.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = '28-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/28-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/28-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/28-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/28-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/28-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/28-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/29-1920.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = '29-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/29-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/29-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/29-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/29-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/29-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/29-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/3-1920.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = '3-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/3-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/3-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/3-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/3-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/3-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/3-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/39-1920.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = '39-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/39-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/39-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/39-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/39-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/39-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/39-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/40-1920.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = '40-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/40-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/40-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/40-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/40-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/40-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/40-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/41-1920.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = '41-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/41-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/41-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/41-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/41-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/41-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/41-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/42-1920.jpg');
+App.progressCountCurrent = 17;
+App.batchStatusString = '42-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/42-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/42-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/42-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/42-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/42-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/42-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/45-1920.jpg');
+App.progressCountCurrent = 18;
+App.batchStatusString = '45-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/45-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/45-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/45-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/45-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/45-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/45-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/46-1920.jpg');
+App.progressCountCurrent = 19;
+App.batchStatusString = '46-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/46-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/46-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/46-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/46-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/46-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/46-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/msbabaei/Desktop/pics/48-1920.jpg');
+App.progressCountCurrent = 20;
+App.batchStatusString = '48-1920.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/48-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/48-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/images/48-1920_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"30", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/48-1920_jpg.jpg') || confirm('file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/48-1920_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/msbabaei/Desktop/TestGallery/gallery/thumbnails/48-1920_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

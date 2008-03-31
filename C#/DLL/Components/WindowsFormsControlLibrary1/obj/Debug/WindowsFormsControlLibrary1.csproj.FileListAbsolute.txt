@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\Visual Studio 2008\Projects\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\bin\Debug\WindowsFormsControlLibrary1.dll
+C:\Users\Administrator\Desktop\Visual Studio 2008\Projects\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\bin\Debug\WindowsFormsControlLibrary1.pdb
+C:\Users\Administrator\Desktop\Visual Studio 2008\Projects\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Visual Studio 2008\Projects\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.dll
+C:\Users\Administrator\Desktop\Visual Studio 2008\Projects\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.pdb
